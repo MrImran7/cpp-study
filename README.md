@@ -11,6 +11,33 @@ g++ -std=c++17 -Wall -Wextra -Wpedantic -Wconversion -Wshadow \
 
 Use `-std=c++20` or `-std=c++23` when practising newer features.
 
+## Runnable teaching examples
+
+Study the files in this order:
+
+| File | What it teaches |
+|---|---|
+| [`cpp17.cpp`](cpp17.cpp) | Main lesson: references, functions, containers, algorithms, lambdas, classes, polymorphism, RAII, smart pointers, moves, optional, variant, string_view, structured bindings, and templates |
+| [`array.c`](array.c) | C array fundamentals, traversal, multiplication, searching, reversing, insertion, deletion, and moving zeroes |
+| [`pointers.c`](pointers.c) | Addresses, dereferencing, pointer arithmetic, pointer-to-pointer, const pointers, and dynamic memory allocation |
+| [`dsa.c`](dsa.c) | Complexity, searching, sorting, stack, circular queue, and linked list |
+
+The project is primarily for modern C++, so start with `cpp17.cpp`. The C files strengthen the memory, pointer, array, and DSA foundations used by systems-level C++.
+
+Compile and run every example:
+
+```bash
+g++ -std=c++17 -Wall -Wextra -Wpedantic -Werror cpp17.cpp -o cpp17
+gcc -std=c17 -Wall -Wextra -Wpedantic -Werror array.c -o array
+gcc -std=c17 -Wall -Wextra -Wpedantic -Werror pointers.c -o pointers
+gcc -std=c17 -Wall -Wextra -Wpedantic -Werror dsa.c -o dsa
+
+./cpp17
+./array
+./pointers
+./dsa
+```
+
 ---
 
 ## 1. Core language essentials
@@ -674,11 +701,11 @@ Example project:
 
 ```text
 cpp-study/
-├── CMakeLists.txt
 ├── README.md
-├── include/
-├── src/
-└── tests/
+├── cpp17.cpp
+├── array.c
+├── pointers.c
+└── dsa.c
 ```
 
 Minimal CMake:
