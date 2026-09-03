@@ -4,7 +4,7 @@
 #include <stdlib.h>
 
 /*
- * BEGINNER DSA LESSON
+ * DSA GUIDE
  * Data structure = how data is organized.
  * Algorithm      = steps that solve a problem.
  *

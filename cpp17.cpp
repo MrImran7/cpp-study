@@ -13,12 +13,12 @@
 #include <vector>
 
 /*
- * MODERN C++17 BEGINNER LESSON
+ * MODERN C++17 GUIDE
  * ============================
  * Compile:
  *   g++ -std=c++17 -Wall -Wextra -Wpedantic -Werror cpp17.cpp -o cpp17
  *
- * This file teaches C++ by running small examples in order.
+ * This file presents C++ concepts through small examples in sequence.
  */
 
 void heading(std::string_view text)

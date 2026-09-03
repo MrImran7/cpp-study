@@ -5,7 +5,7 @@
 #include <stdlib.h>
 
 /*
- * POINTER LESSON
+ * POINTER GUIDE
  * int number = 10;       normal integer
  * int *p = &number;      p stores number's address
  * &number                address-of operator

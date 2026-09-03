@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /*
- * ARRAY LESSON
+ * ARRAY GUIDE
  * An array stores same-type elements next to each other in memory.
  *
  *   int a[5] = {10, 20, 30, 40, 50};
